@@ -1,0 +1,57 @@
+<!-- <div class="background">
+    <div class="main">
+        <router-outlet></router-outlet>
+        <form (ngSubmit)="OnLogin()" #loginForm="ngForm">
+            <div id="SignUp_form">
+                <h4>Hotel Taj
+                    <br><span style="color: brown;">Log In to your account</span>
+                </h4>
+                <label for="UserName">UserName</label>
+                <span style="color: red;">&#42;</span><br>
+                <input type="text" id="UserName" name="UserName" [(ngModel)]="LoginObj.UserName" required><br><br>
+                <hr>
+                <label for="Password">Password</label>
+                <span style="color: red;">&#42;</span><br>
+                <input type="password" id="Password" name="Password" [(ngModel)]="LoginObj.Password" required><br><br>
+                <hr>
+                <a href="">Forgot Password?</a><br><br>
+                <button type="submit" [disabled]="!loginForm.valid" >Log In</button><br>
+                <p>Don't have an account?</p>
+                <button type="button" (click)="UserCreateForm()">Create User</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="CreateUser" *ngIf="showForm">
+    <div class="UserForm">
+        <form (ngSubmit)="OnUserCreate()" #userCreateForm="ngForm">
+            <div class="Form-header">
+                <h4>Create User</h4>
+                <span (click)="CancleForm()" id="close">&#10060;</span>
+            </div>
+            <div class="group">
+                <label for="Name">Name :</label>
+                <input type="text" name="Name" [(ngModel)]="CreateObj.Name" required>
+            </div>
+            <div class="group">
+                <label for="Mobile">Mobile :</label>
+                <input type="number" name="Mobile" [(ngModel)]="CreateObj.Mobile" required>
+            </div>
+            <div class="group">
+                <label for="Email">Email Id :</label>
+                <input type="email" name="Email" [(ngModel)]="CreateObj.Email" required>
+            </div>
+            <div class="group">
+                <label for="UserName">UserName :</label>
+                <input type="text" name="UserName" [(ngModel)]="CreateObj.UserName" required>
+            </div>
+            <div class="group">
+                <label for="Password">Password :</label>
+                <input type="password" name="Password" [(ngModel)]="CreateObj.Password" required>
+            </div>
+            <button class="btn btn-success" type="submit" [disabled]="!userCreateForm.valid">Save</button>
+        </form>
+    </div>
+</div> -->
+<router-outlet></router-outlet>

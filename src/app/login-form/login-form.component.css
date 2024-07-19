@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.background {
+    background-image: url('../../../public/BgHotel.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: auto;
+}
+hr{
+    width: 300px; 
+    margin-right: 93%;
+    margin-top: -5px;
+}
+
+#SignUp_form {
+    background-color: white;
+    padding: 8px; 
+    border-radius: 5px;
+    width: 350px; 
+    box-shadow: 0 4px 8px white;
+    margin-bottom: 20px;
+}
+
+#SignUp_form h4 {
+    text-align: center;
+}
+
+#SignUp_form input {
+    width: 90%;
+    padding: 8px; 
+    margin: 5px 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#SignUp_form button {
+    width: 90%;
+    padding: 8px; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0; 
+    width: 85%;
+    margin-left:20px;
+    background-color: cadetblue;
+}
+
+#SignUp_form button:hover {
+    background-color:paleturquoise
+}
+
+#SignUp_form a {
+    font-size: 0.9em;
+}
+
+#SignUp_form p {
+    margin: 10px 0; 
+}
+.CreateUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  .UserForm {
+    background-color: white;
+    width: 400px;
+    padding-top: 17px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+  .group label {
+    width: 100px;
+    line-height: 40px;
+    height: 40px;
+  }
+  .Form-header {
+    display: flex;
+    margin-top: 20px;
+  }
+  #close {
+   margin-left: 165px;
+    cursor: pointer;
+  }

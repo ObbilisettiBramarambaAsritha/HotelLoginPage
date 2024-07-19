@@ -1,0 +1,49 @@
+.Form-header{
+    display: flex;
+    margin-left: 5%;
+    padding-top: 20px;   
+}
+#close{
+    margin-left: 50%;
+    cursor: pointer;;
+}
+.group label {
+    width: 100px;
+    line-height: 40px;
+    height: 40px;
+  }
+.Add-Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+  .mainForm{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    height: 380px;
+  }
+  #Add-btn{
+    margin-left: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .ag-header-cell {
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark text color */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .ag-header-cell-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
